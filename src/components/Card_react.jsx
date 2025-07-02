@@ -42,6 +42,20 @@ const React_ = styled.div`
   padding: 40px;
   min-height: 100vh;
 `;
+const CatdPractic = styled.a`
+  color: #000;
+  background: #466ecd;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: #000;
+    color: #253c86;
+  }
+`;
 
 export default function Card_react() {
   return (
@@ -50,13 +64,23 @@ export default function Card_react() {
         <CardWrapper key={idx}>
           <CardTitle>{note.title}</CardTitle>
           {note.link && (
-            <CardLink
-              href={note.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Смотреть видео
-            </CardLink>
+            <div>
+              <CardLink
+                href={note.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Смотреть видео
+              </CardLink>
+
+              <CatdPractic
+                href={note.practicLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Смотреть Практику
+              </CatdPractic>
+            </div>
           )}
         </CardWrapper>
       ))}

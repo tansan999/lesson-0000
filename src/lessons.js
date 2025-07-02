@@ -1,63 +1,119 @@
+// ! REACT
 export const defaultNotes = [
   {
     title:
       "Урок - 1 Что такое библиотека / фреймворк / nodeJS / npm / babel /terminal",
     link: "https://youtu.be/VU3nP_QoWKM",
+    practicLink: "https://www.youtube.com/watch?v=v_mSiQEWTjA",
   },
   {
     title: "Урок 2. Понимание структуры проекта",
     link: "https://youtu.be/EnvJe8ZK3Z4",
+    practicLink: " https://www.youtube.com/watch?v=fcTxdEKWwGI",
   },
   {
     title: "Урок - 3 свойства, CSS-модули и рендеринг списка",
     link: "https://youtu.be/TgYs3uOTZYA",
+    practicLink: "",
   },
   {
     title: "Урок 4 - Приложение «Расходы»",
     link: "https://youtu.be/NCUTSQWZqwQ",
+    practicLink: "",
   },
   {
     title: "Урок 5 — Пакетирование состояний",
     link: "https://youtu.be/P90me30e4mw",
+    practicLink: "",
   },
   {
     title: "Урок - 6 Подъем состояния вверх",
     link: "https://youtu.be/LhVyVGN78w4",
+    practicLink: "",
   },
   {
     title: "Урок 7 — Git | ветви | команды",
     link: "https://youtu.be/HZY6k9p0onI",
+    practicLink: "",
   },
-  { title: "Урок 8 — Styled-components", link: "https://youtu.be/KwUvjUGtdtU" },
+  {
+    title: "Урок 8 — Styled-components",
+    link: "https://youtu.be/KwUvjUGtdtU",
+    practicLink: "",
+  },
   {
     title: "Урок 9 - useRef, Порталы, Фрагменты",
     link: "https://youtu.be/Fhn2vy92Avo",
+    practicLink: "",
   },
-  { title: "Урок 10 - useEffect()", link: "https://youtu.be/6DTEilKI7AY" },
-  { title: "Урок 11 - useReducer", link: "https://youtu.be/59tTo0TvHY4" },
-  { title: "Урок 12 — Context API", link: "https://youtu.be/Aet5-wjaJRo" },
+  {
+    title: "Урок 10 - useEffect()",
+    link: "https://youtu.be/6DTEilKI7AY",
+    practicLink: "",
+  },
+  {
+    title: "Урок 11 - useReducer",
+    link: "https://youtu.be/59tTo0TvHY4",
+    practicLink: "",
+  },
+  {
+    title: "Урок 12 — Context API",
+    link: "https://youtu.be/Aet5-wjaJRo",
+    practicLink: "",
+  },
   {
     title: "Урок 13 - Заказ еды часть 1",
     link: "https://youtu.be/25Q61Uu3WCk",
+    practicLink: "",
   },
   {
     title: "Урок 14 - Заказ еды Часть 2",
     link: "https://youtu.be/1an_gycMOGU",
+    practicLink: "",
   },
   {
     title: "Урок 15 - useCallback, useMemo, lazy",
     link: "https://youtu.be/lwTdIpxrKNk",
+    practicLink: "",
   },
-  { title: "Урок 16 — React Router 1", link: "https://youtu.be/DTIhkGxf60M" },
-  { title: "Урок 17 - React Router 2", link: "https://youtu.be/umM-E9Fq_4s" },
-  { title: "Урок 18 — Введение в Redux", link: "https://youtu.be/euSOS838UPI" },
-  { title: "Урок 19 - Redux Thunk", link: "https://youtu.be/t65P43gKY5M" },
-  { title: "Урок 20 — Введение в Redux-Toolkit", link: "https://youtu.be/f_X7W0B6yBA" },
-  { title: "Урок 21 - Redux-Toolkit | createAsyncThunk", link: "https://youtu.be/2b7MTfpgfd0" },
-  { title: "Урок 22 — Material UI", link: "" },
-  { title: "Урок 23 - Аутентификация, Jwt_token", link: "" },
-  { title: "Урок 24 - React-Hook-Form", link: "" },
-  { title: "Урок 25 - TypeScript | devDependencies", link: "" },
+  {
+    title: "Урок 16 — React Router 1",
+    link: "https://youtu.be/DTIhkGxf60M",
+    practicLink: "https://us02web.zoom.us/rec/share/7XQqMVcuRGQIvWGQGK6qHwZt9wWp6sMhpHWCZulqbEnFQIJA9L3S7hZ8YSRL4cyc.cYDXCrKIqpzj1Q2e",
+  },
+  {
+    title: "Урок 17 - React Router 2",
+    link: "https://youtu.be/umM-E9Fq_4s",
+    practicLink: "",
+  },
+  {
+    title: "Урок 18 — Введение в Redux",
+    link: "https://youtu.be/euSOS838UPI",
+    practicLink: "",
+  },
+  {
+    title: "Урок 19 - Redux Thunk",
+    link: "https://youtu.be/t65P43gKY5M",
+    practicLink: "",
+  },
+  {
+    title: "Урок 20 — Введение в Redux-Toolkit",
+    link: "https://youtu.be/f_X7W0B6yBA",
+    practicLink: "",
+  },
+  {
+    title: "Урок 21 - Redux-Toolkit | createAsyncThunk",
+    link: "https://youtu.be/2b7MTfpgfd0",
+    practicLink: "",
+  },
+  { title: "Урок 22 — Material UI", link: "", practicLink: "" },
+  { title: "Урок 23 - Аутентификация, Jwt_token", link: "", practicLink: "" },
+  { title: "Урок 24 - React-Hook-Form", link: "", practicLink: "" },
+  {
+    title: "Урок 25 - TypeScript | devDependencies",
+    link: "",
+    practicLink: "",
+  },
 ];
 
 export const html = [
