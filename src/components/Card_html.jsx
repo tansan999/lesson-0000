@@ -2,18 +2,51 @@ import React from "react";
 import styled from "styled-components";
 import { html } from "../lessons";
 
-const DivAAA = styled.h1`
-  margin: 0 auto;
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 900;
-  letter-spacing: 2px;
-  background: linear-gradient(120deg, #0f2027 30%, #ffd700 60%, #1a2980 100%);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin-bottom: 32px;
-  text-shadow: 0 2px 12px #000a, 0 1px 0 #ffd70080;
+export default function Card_html() {
+  return (
+    <Html>
+      {html.map((note, idx) => (
+        <CardWrapper key={idx}>
+          <CardTitle>{note.title}</CardTitle>
+          {note.link && (
+            <>
+              <CardLink
+                href={note.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Смотреть видео
+              </CardLink>
+              {note.practicLink && (
+                <CatdPractic
+                  href={note.practicLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Смотреть Практику
+                </CatdPractic>
+              )}
+            </>
+          )}
+        </CardWrapper>
+      ))}
+    </Html>
+  );
+}
+
+const CatdPractic = styled.a`
+  color: #000;
+  background: #466ecd;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: #000;
+    color: #253c86;
+  }
 `;
 
 const CardWrapper = styled.div`
@@ -54,24 +87,3 @@ const Html = styled.div`
   gap: 24px;
   padding: 40px;
 `;
-
-export default function Card_html() {
-  return (
-    <Html>
-      {html.map((note, idx) => (
-        <CardWrapper key={idx}>
-          <CardTitle>{note.title}</CardTitle>
-          {note.link && (
-            <CardLink
-              href={note.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Смотреть видео
-            </CardLink>
-          )}
-        </CardWrapper>
-      ))}
-    </Html>
-  );
-}

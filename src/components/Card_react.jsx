@@ -2,6 +2,38 @@ import React from "react";
 import styled from "styled-components";
 import { defaultNotes } from "../lessons";
 
+export default function Card_react() {
+  return (
+    <React_>
+      {defaultNotes.map((note, idx) => (
+        <CardWrapper key={idx}>
+          <CardTitle>{note.title}</CardTitle>
+          {note.link && (
+            <MapCard>
+              <CardLink
+                href={note.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Смотреть видео
+              </CardLink>
+              {note.practicLink && (
+                <CatdPractic
+                  href={note.practicLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Смотреть Практику
+                </CatdPractic>
+              )}
+            </MapCard>
+          )}
+        </CardWrapper>
+      ))}
+    </React_>
+  );
+}
+
 const CardWrapper = styled.div`
   background: linear-gradient(135deg, #000 60%, #ffd700 100%);
   color: #ffd700;
@@ -57,33 +89,8 @@ const CatdPractic = styled.a`
   }
 `;
 
-export default function Card_react() {
-  return (
-    <React_>
-      {defaultNotes.map((note, idx) => (
-        <CardWrapper key={idx}>
-          <CardTitle>{note.title}</CardTitle>
-          {note.link && (
-            <div>
-              <CardLink
-                href={note.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Смотреть видео
-              </CardLink>
-
-              <CatdPractic
-                href={note.practicLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Смотреть Практику
-              </CatdPractic>
-            </div>
-          )}
-        </CardWrapper>
-      ))}
-    </React_>
-  );
-}
+const MapCard = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+`;
