@@ -333,3 +333,26 @@ export const js = [
     practicLink: "",
   },
 ];
+
+export const taskTracker = [
+  {
+    title: "Lesson 1",
+    link: "https://us02web.zoom.us/rec/play/ZNbhH4clgFJ7vvFunOWa5L2mbd9BG0FBfoayXCqY0qrSNu4PRb2UgKhK7ycQYUcd4i7Y0mrL_hwBJMaw.uXpm5vXzEaFlC8-U?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2F7WLmz0Xxs_5DzDJR9kEV7f6J88usLP8-PHVGB4K6Br_5i0byeC7ro-XZBvBgU0lM.ZqkztG9qnQik4T8L",
+    practicLink: "",
+  },
+  {
+    title: "Lesson 2",
+    link: "https://us02web.zoom.us/rec/play/pg41ajh08tqmzgC4aqS2H9z7lQ0Y-OIkXrtYa_updRH2wOImvRYPnLGO1sR9vKi8JWoLQ8TIbeT78LtX.UO2LDzEP3dMSBzni?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2FWn0rijYEd1oQ3kcqi7E7dTQAqpX3Oaf0kflw8WTs5DXlSKxo6HRIHg8dfKvSWzfY.ixmapMucDgHSCgbb",
+    practicLink: "",
+  },
+  {
+    title: "Lesson 3",
+    link: "https://us02web.zoom.us/rec/play/aAW4Y9EOxTOf_B2Z8-Vu_epYtlGmCzvZncdQATY3YwGRhOT49K08GsxNx430-6f2_EbRuzu_xHC6gScr.cG5JvXis89tSxdFZ?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2Fxjvisg_OSiO2NcIDt4PlAtO0mus87Q_3C8st246tM3T5wdQVa18pchDwJcQacTtO.FtFWBMitSxVi3R7O",
+    practicLink: "",
+  },
+  {
+    title: "Lesson 4",
+    link: "https://us02web.zoom.us/rec/play/TAaYfJAvOFyxbWrbR21xYymCJPrYqyVayr-wxHasIF6sPFAIQamq_JKwfGi_1-mKkq1T18UZc9PKha9d.a9UzWVTZRyInSVIV?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2FBQBzzmKKMOp0Ij_9lbEXdNyIj0Vei04QS7o4259wzhTTSyX0GGEp22MATqT4cLCT.2GXzJoReu-khR3pP",
+    practicLink: "",
+  },
+];

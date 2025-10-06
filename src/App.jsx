@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Card_html from "./components/Card_html";
 import Card_css from "./components/Card_css";
 import Card_js from "./components/Card_js";
+import Card_Task_Tracker from "./components/Card_Task-tracker";
 
 export default function App() {
   return (
@@ -18,6 +19,10 @@ export default function App() {
 
       <DivAAA>REACT</DivAAA>
       <Card_react />
+
+     <DivAAA>Task Tracker</DivAAA>
+      <Card_Task_Tracker />
+
     </DivApp>
   );
 }
