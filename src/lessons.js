@@ -357,8 +357,8 @@ export const taskTracker = [
   },
   {
     title:
-      "Lesson 5  Main тушундуруп берет , как подключить Swager с помошю axsios ",
-    link: "https://us02web.zoom.us/rec/play/TAaYfJAvOFyxbWrbR21xYymCJPrYqyVayr-wxHasIF6sPFAIQamq_JKwfGi_1-mKkq1T18UZc9PKha9d.a9UzWVTZRyInSVIV?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2FBQBzzmKKMOp0Ij_9lbEXdNyIj0Vei04QS7o4259wzhTTSyX0GGEp22MATqT4cLCT.2GXzJoReu-khR3pP",
+      "Lesson 5 --  Main тушундуруп берет , как подключить Swager с помошю axsios ",
+    link: "https://us02web.zoom.us/rec/play/3OK6-uYv5ovcalKCedglTBs6Z5EJ0jFz4cQks-2bJ7lVVtcesSZpsim0XAAWmNT7LjCFelUBz76YI5gU.zU5kCkY1rsr-2T2s?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2F50cSRwLii9lbUWvSG4f4SNXwm_qGbtUZsulTNpbTfh-AnD5QlyqoVIeyw5BhmEG0.m9xU0nv8m80hsvx0",
     practicLink: "",
   },
 ];
